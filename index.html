@@ -69,7 +69,7 @@
         <div class="flex justify-center mb-10">
             <!-- Left side with image -->
             <div class="w-1/4 flex items-center justify-start">
-                <img src="./image/decor.jpg" alt="Mobile Development" class="w-3/4 h-auto">
+                <img src="./image/decor.jpg" alt="Mobile Development" class="w-3/4 h-auto mb-10">
             </div>
 
             <!-- Right side with text -->
@@ -131,7 +131,7 @@
             <span class="text-red-600 text-3xl inline-block">✦</span>
             <span class="text-black text-5xl inline-block ml-1">✦</span>
         </div>
-        <div class="absolute right-4 bottom-4 translate-x-full translate-y-ful">
+        <div class="absolute right-2 bottom-2 translate-x-full translate-y-ful">
             <span class="text-black text-5xl inline-block">✦</span>
             <span class="text-red-600 text-3xl inline-block ml-1">✦</span>
         </div>
@@ -209,33 +209,34 @@
             <button class="w-2 h-2 rounded-full bg-gray-300"></button>
             <button class="w-2 h-2 rounded-full bg-gray-300"></button>
         </div>
+    
 
-    </div>
-
-    <div class="max-w-7xl md:flex-row mx-auto px-8 py-16">
-        <div class="flex flex-wrap items-center justify-between relative">
-            <!-- Left Side Content -->
-            <div class="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-                <h2 class="text-4xl font- text-5xl font-bold  bold mb-4">No more scrolling</h2>
-                <h3 class="text-red-600 text-5xl font-extrabold mb-4">Let's begin!</h3>
-                <p class="text-gray-600 md:flex-row text-lg mb-6">
-                    At TechBoat Solutions, we prioritize customer satisfaction and love hearing from you. Whether you have a question, comment, or just want to say hello, we're here to assist.
-                </p>
-            </div>
+    <div class="container mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-x-3">
+        <h2 class="text-6xl mb-4 text-center font-extrabold col-span-full">No more scrolling</h2>
+        <!-- Left Side Content -->
+        <div class="text-center md:text-right mb-8 md:mb-0 pr-3">
+            <h3 class="text-red-600 text-6xl font-extrabold mb-4">Let's begin!</h3>
+        </div>
+        <!-- Right Side Content -->
+        <div class="text-center md:text-left mb-8 md:mb-0 pl-3">
+            <p class="text-gray-600 text-md mb-6">
+                At TechBoat Solutions, we prioritize customer satisfaction and love hearing from you. Whether you have a question, comment, or just want to say hello, we're here to assist.
+            </p>
         </div>
     </div>
+</div>
 
     <!-- Contact Form Section -->
 <div class="max-w-7xl mx-auto px-8 py-16">
-    <div class="flex flex-wrap items-center justify-between relative">
+    <div class="flex flex-wrap ml-48 justify-between relative">
 
         <!-- Left Side Decorative Element -->
-        <div class="relative w-48 h-48 mx-auto md:mx-0">
+        <div class="relative w-50 h-full mx-auto md:mx-0">
             <img src="./image/decor.jpg" alt="Decorative orbit" class="w-full h-full">
         </div>
 
         <!-- Right Side Form -->
-        <div class="absolute w-full md:w-1/2 top-0 right-0 p-8 bg-white rounded-lg shadow-lg z-10">
+        <div class="absolute w-full md:w-1/2 top-0 right-0 p-8 bg-white rounded-3xl border border-grey-600 z-10 mr-20">
             <h4 class="text-2xl font-bold mb-6">Inquire now!</h4>
             <form>
                 <!-- Name Input -->
@@ -289,8 +290,51 @@
         </div>
     </div>
 </div>
-
 </div>
+
+<!-- Footer Section -->
+<footer class="bg-red-950 text-white py-8 mt-24">
+    <div class="max-w-7xl mx-auto flex justify-between ">
+        <!-- Logo -->
+        <div class="flex ">
+            <img src="./image/Logo design SVG.png" alt="Logo" class="h-10 mr-4"> <!-- Adjust the logo path and size -->
+            <span class="text-lg font-bold">TechBoat Solutions</span>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="flex flex-col space-y-2 text-left">
+            <a href="#" class="hover:underline">Home</a>
+            <a href="#" class="hover:underline">Service</a>
+            <a href="#" class="hover:underline">Our work</a>
+            <a href="#" class="hover:underline">About us</a>
+            <a href="#" class="hover:underline">Blogs</a>
+            <a href="#" class="hover:underline">Contact us</a>
+        </div>
+
+        <!-- Contact Information -->
+        <div class="text-white">
+            <h2 class="text-lg font-semibold">Work related queries?</h2>
+            <div class="mt-4 space-y-2">
+                <div class="flex items- space-x-2">
+                    <span>&#9993;</span>
+                    <a href="mailto:info@techboat.com" class="hover:underline">info@techboat.com</a>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span>&#128222;</span>
+                    <a href="tel:9275514414" class="hover:underline">9275514414</a>
+                </div>
+            </div>
+            <div class="mt-4 flex space-x-4">
+                <a href="#" class="text-xl hover:opacity-75">
+                    <img src="./image/Instagram.png" alt="LinkedIn" class="h-6">
+                </a>
+                <a href="#" class="text-xl hover:opacity-75">
+                    <img src="./image/Linkedin.png" alt="LinkedIn" class="h-6">
+                </a>
+            </div>
+        </div>
+    
+</footer>
+
 </body>
 </html> 
-
